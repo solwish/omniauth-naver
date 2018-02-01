@@ -34,7 +34,7 @@ module OmniAuth
       end
 
       def image
-        return raw_properties['profile_image'].sub('?type=s80', '') unless raw_properties['profile_image'].include? 'nodata_33x33.gif'
+        # return raw_properties['profile_image'].sub('?type=s80', '') unless raw_properties['profile_image'].include? 'nodata_33x33.gif'
       end
 
       def raw_info
